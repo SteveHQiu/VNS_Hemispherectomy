@@ -169,25 +169,3 @@ def roundCells(x):
 df_raw = df_raw.applymap(roundCells)
 
 print(df_raw.to_markdown())
-
-#%%
-"""
-Outputs:
-    Pie graph of sex
-    Boxplot of age of onset
-    Pie graph of semiology
-    Boxplot of age at surgery
-    Trends of engel scores + mean/SD of weeks for data points
-    
-    Table of 
-        Indications
-        
-    
-Other data to explain:
-    ultimate_surgery - need to explain? 
-    redo_disconnection, redo_location - only for partial - need to include?
-    complications - need to display?
-
-Assume engel_vns score is obtained after the engel_late score? Would there be a date for this?
-
-"""
