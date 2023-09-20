@@ -140,6 +140,9 @@ df_raw = df[[
     "complications",
     ]]
 
+print(df_raw["engel_immediate_time_wks"].describe())
+print(df_raw["engel_late_time_wks"].describe())
+
 df_raw = df_raw.set_axis([
                         "Age at Hemispherectomy",
                         "Sex",
@@ -157,7 +160,6 @@ df_raw = df_raw.set_axis([
                         axis=1
                         )
 
-
 def roundCells(x):
         if isinstance(x, (int, float)):
             return round(x, 1)
@@ -165,7 +167,9 @@ def roundCells(x):
             return x
 
 df_raw = df_raw.applymap(roundCells)
+
 print(df_raw.to_markdown())
+
 #%%
 """
 Outputs:

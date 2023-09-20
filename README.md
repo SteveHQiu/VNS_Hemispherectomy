@@ -19,3 +19,5 @@ Characterization clinical characteristics and outcomes for a cohort of pediatric
 ![Figure 5](figures/Fig5.png)
 ![Figure 6](figures/Fig6.png)
 ![Figure 7](figures/Fig7.png)
+- Mean ± SD (range) weeks post-op to first Engel Classification: 9.4 ± 1.3 (8.0-11.0)
+- Mean ± SD (range) weeks post-op to second Engel Classification: 242 ± 146 (104-481)
