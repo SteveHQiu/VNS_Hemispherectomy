@@ -124,7 +124,48 @@ plt.yticks(list(engel_table.values()), list(engel_table.keys()))
 plt.savefig(RF"figures/{file_name}.png", dpi=300, format="png")
 plt.show()
 
+#%% Tables
+df_raw = df[[
+    "age_hemispherectomy_yrs",
+    "sex",
+    "age_onset",
+    "semiology",
+    "indication",
+    "laterality",
+    "engel_immediate",
+    "engel_immediate_time_wks",
+    "engel_late",
+    "engel_late_time_wks",
+    "engel_vns",
+    "complications",
+    ]]
 
+df_raw = df_raw.set_axis([
+                        "Age at Hemispherectomy",
+                        "Sex",
+                        "Age at Symptom Onset",
+                        "Epileptic Seizure Semiology",
+                        "Indication for Hemispherectomy",
+                        "Laterality of Hemispherectomy",
+                        "Engel Class Early Post-hemispherectomy",
+                        "Weeks Post-op to Early Engel Class Measurement",
+                        "Engel Class Post-hemispherectomy",
+                        "Weeks Post-op to Late Engel Class Measurement",
+                        "Engel Class Post-VNS",
+                        "Surgical Complications",
+                        ],
+                        axis=1
+                        )
+
+
+def roundCells(x):
+        if isinstance(x, (int, float)):
+            return round(x, 1)
+        else:
+            return x
+
+df_raw = df_raw.applymap(roundCells)
+print(df_raw.to_markdown())
 #%%
 """
 Outputs:
