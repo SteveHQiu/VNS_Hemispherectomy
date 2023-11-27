@@ -1,0 +1,6 @@
+﻿original_id,sex,date_hemispherectomy,age_hemispherectomy_yrs,laterality,indication,atypical_indication,semiology,pre_hemispherectomy_surgery,pre_hemispherectomy_location,redo_disconnection,redo_location,redo_location_details,engel_immediate,engel_immediate_time_wks,engel_late,engel_late_time_wks,engel_redo,vns_post_hemispherectomy,engel_vns,comments,vps_post_hemispherectomy,vps_details,surgeon,grid_seeg_ecog,age_onset,complications,ultimate_surgery,generalized_onset,off_aeds,number_aeds_latest,preop_biopsy,incomplete_followup
+46,F,2004-02-12,9,L,mcd,n,generalized,n,na,na,na,na,2B,6,3A,416,na,n,na,,n,,rutka,none,2,hemiparesis,hemispherectomy,y,n,,n,n
+63,M,2008-01-24,8.24109589,R,mre nyd,y,generalized,n,na,n,na,na,1A,9.714285714,2A,179.7142857,na,n,na,,n,,rutka,none,0,panhypopituitarism/hemiparesis,hemispherectomy,y,n,,y,n
+78,M,2012-07-10,5.712328767,R,stroke,y,generalized,n,na,n,n,na,1A,9.142857143,1A,440.2857143,1A,n,na,,n,,rutka,none,4,hemiparesis,hemispherectomy,y,y,,n,n
+75,F,2011-09-19,0.2,L,hemimegalencephaly,n,partial motor,n,na,y,multilobar,temporal/insular,1A,4,2A,44,1A,n,na,,n,,rutka,none,0,hemiparesis,hemispherectomy,n,y,,n,n
+19,M,1994-08-30,2,R,cortical dysplasia,n,partial motor,n,na,y,multilobar,frontal/temporal/occipital,1A,6,3B,296,3B,n,na,,n,,hoffman/rutka,none,1.083333333,none,hemispherectomy,y,n,,,
